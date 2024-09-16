@@ -1,6 +1,10 @@
 import React from 'react'
+import './App.css'
 import Login from './Components/login'
-import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
+import Signup from './Components/Signup'
+import { BrowserRouter as Router , Routes , Route } from 'react-router-dom'
+import Dashboard from './Components/Dashboard'
+
 
 function App() {
   return (
@@ -9,6 +13,10 @@ function App() {
         <Routes>
 
           <Route path = '/' element={<Login />} />
+          <Route path =  '/signup' element={<Signup/>} />
+          <Route path =  '/dashboard' element={<Dashboard />} />
+          
+          
    
         </Routes>
       </Router>

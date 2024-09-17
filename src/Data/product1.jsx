@@ -17,7 +17,7 @@ export const productsData = [
   {
       "image":camera2,
       "ProductName":"Sony",
-      "Price":"27000",
+      "Price":"28000",
 
   },
   {

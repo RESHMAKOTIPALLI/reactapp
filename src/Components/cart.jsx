@@ -2,25 +2,25 @@ import React, { useState } from 'react';
 import './Cart.css'; // Ensure you create and import this CSS file
 
 function Cart() {
-  // Sample data for cart items
+  // Sample data for electronics cart items
   const [cartItems, setCartItems] = useState([
     {
       id: 1,
-      name: 'Beach Vacation Package',
-      price: 499,
+      name: 'Laptop XYZ 15"',
+      price: 999,
       quantity: 1
     },
     {
       id: 2,
-      name: 'Mountain Adventure Tour',
-      price: 299,
-      quantity: 2
+      name: 'Canon EOS 5D Camera',
+      price: 1499,
+      quantity: 1
     },
     {
       id: 3,
-      name: 'City Exploration Pass',
-      price: 99,
-      quantity: 1
+      name: 'Bose QuietComfort Headphones',
+      price: 299,
+      quantity: 2
     }
   ]);
 
@@ -34,7 +34,7 @@ function Cart() {
 
   return (
     <div className="cart">
-      <h1>Your Travel Cart</h1>
+      <h1>Your Electronics Cart</h1>
       <div className="cart-items">
         {cartItems.length === 0 ? (
           <p>Your cart is empty.</p>
@@ -52,7 +52,7 @@ function Cart() {
         )}
       </div>
       <div className="cart-summary">
-        <h2>Total: ${totalPrice}</h2>
+        <h2>Total: ${totalPrice.toFixed(2)}</h2>
         <button className="checkout-btn">Proceed to Checkout</button>
       </div>
     </div>

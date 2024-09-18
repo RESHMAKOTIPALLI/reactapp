@@ -6,7 +6,7 @@ function Sidenav() {
     <div className="sidenav">
       <div className="sidenav-header">
         <h1>Electronics</h1>
-        <img src="/path/to/logo.png" alt="Electronics Logo" className="logo" />
+        <img src="Rapunzel.jpg" alt="Electronics Logo" className="logo" />
       </div>
       <ul className="sidenav-menu">
         <li>
@@ -24,9 +24,7 @@ function Sidenav() {
         <li>
           <Link to="/profile" className="sidenav-link">Profile</Link>
         </li>
-        <li>
-          <Link to="/settings" className="sidenav-link">Settings</Link>
-        </li>
+      
       </ul>
       <div className="sidenav-footer">
         <Link to="/" className="sidenav-link">Logout</Link>
@@ -36,3 +34,4 @@ function Sidenav() {
 }
 
 export default Sidenav;
+

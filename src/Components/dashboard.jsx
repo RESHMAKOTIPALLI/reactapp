@@ -3,9 +3,10 @@ import Sidenav from './Sidenav';
 import { Col, Row } from 'react-bootstrap';
 import { Card, Button } from 'react-bootstrap';
 
+
 function Dashboard() {
   return (
-    <div>
+    <div className="dashboard-container">
       <Row>
         <Col sm={2}>
           <Sidenav />
@@ -15,7 +16,7 @@ function Dashboard() {
             <h1>Dashboard</h1>
             <Row>
               <Col md={4}>
-                <Card>
+                <Card className="dashboard-card">
                   <Card.Body>
                     <Card.Title>Revenue</Card.Title>
                     <Card.Text>
@@ -26,7 +27,7 @@ function Dashboard() {
                 </Card>
               </Col>
               <Col md={4}>
-                <Card>
+                <Card className="dashboard-card">
                   <Card.Body>
                     <Card.Title>Users</Card.Title>
                     <Card.Text>
@@ -37,7 +38,7 @@ function Dashboard() {
                 </Card>
               </Col>
               <Col md={4}>
-                <Card>
+                <Card className="dashboard-card">
                   <Card.Body>
                     <Card.Title>Orders</Card.Title>
                     <Card.Text>
@@ -70,3 +71,4 @@ function Dashboard() {
 }
 
 export default Dashboard;
+

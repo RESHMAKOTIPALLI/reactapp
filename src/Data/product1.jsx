@@ -1,4 +1,4 @@
-import React from 'react'
+
 import camera1 from '../Assets/camera1.jpg'
 import camera2 from '../Assets/camera2.jpg'
 import camera3 from '../Assets/camera3.jpg'

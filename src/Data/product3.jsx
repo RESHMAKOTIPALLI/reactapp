@@ -1,4 +1,4 @@
-import React from 'react'
+
 import headphone1 from '../Assets/headphone1.jpg'
 import headphone2 from '../Assets/headphone2.jpg'
 import headphone3 from '../Assets/headphone3.jpg'

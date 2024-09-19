@@ -1,25 +1,25 @@
 import React, { useState } from 'react';
-import './Cart.css'; // Ensure you create and import this CSS file
+import './Cart.css'; 
 
 function Cart() {
-  // Sample data for electronics cart items
+ 
   const [cartItems, setCartItems] = useState([
     {
       id: 1,
       name: 'Laptop XYZ 15"',
-      price: 999,
+      price: 50000,
       quantity: 1
     },
     {
       id: 2,
       name: 'Canon EOS 5D Camera',
-      price: 1499,
+      price: 25000,
       quantity: 1
     },
     {
       id: 3,
       name: 'Bose QuietComfort Headphones',
-      price: 299,
+      price: 4000,
       quantity: 2
     }
   ]);

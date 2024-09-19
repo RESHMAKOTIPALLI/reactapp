@@ -1,4 +1,4 @@
-import React from 'react'
+
 import laptop1 from '../Assets/laptop1.jpg'
 import laptop2 from '../Assets/laptop2.jpg'
 import laptop3 from '../Assets/laptop3.jpg'

@@ -6,7 +6,7 @@ function Login() {
     <div className='container-fluid loginbody'>
       <div className='main'>
         <div className='block'>
-          <h1></h1>
+          <h1>ElectroExplorer</h1>
           <h4>UserName</h4>
           <input type="text" placeholder='Enter your User Name' /><br /><br />
           <h4>Password</h4>

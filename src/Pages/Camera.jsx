@@ -1,13 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
-import { Bar } from 'react-chartjs-2';
-import Sidenav from './Sidenav';
+import Sidenav from '../Components/Sidenav';
+
+
 
 const Cameras = () => {
     // Sample data for the bar chart
     const data = {
-        labels: ['Camera A', 'Camera B', 'Camera C', 'Camera D'],
+        labels: ['Camera1', 'Camera2', 'Camera3'],
         datasets: [
             {
                 label: 'Sales',
@@ -32,13 +33,13 @@ const Cameras = () => {
                     <Row className="mt-4">
                         <Col md={4}>
                             <Card>
-                                <Card.Img variant="top" src="path/to/camera-a.jpg" />
+                                <Card.Img variant="top" src="path/to/camera-1.jpg" />
                                 <Card.Body>
-                                    <Card.Title>Camera A</Card.Title>
+                                    <Card.Title>Camera1</Card.Title>
                                     <Card.Text>
                                         High resolution and great performance.
                                     </Card.Text>
-                                    <Link to="/cameras/camera-a">
+                                    <Link to="/cameras/camera-1">
                                         <Button variant="primary">View Details</Button>
                                     </Link>
                                 </Card.Body>
@@ -46,13 +47,13 @@ const Cameras = () => {
                         </Col>
                         <Col md={4}>
                             <Card>
-                                <Card.Img variant="top" src="path/to/camera-b.jpg" />
+                                <Card.Img variant="top" src="path/to/camera-2.jpg" />
                                 <Card.Body>
-                                    <Card.Title>Camera B</Card.Title>
+                                    <Card.Title>Camera2</Card.Title>
                                     <Card.Text>
                                         Compact and lightweight, perfect for travel.
                                     </Card.Text>
-                                    <Link to="/cameras/camera-b">
+                                    <Link to="/cameras/camera-2">
                                         <Button variant="primary">View Details</Button>
                                     </Link>
                                 </Card.Body>
@@ -60,13 +61,13 @@ const Cameras = () => {
                         </Col>
                         <Col md={4}>
                             <Card>
-                                <Card.Img variant="top" src="path/to/camera-c.jpg" />
+                                <Card.Img variant="top" src="path/to/camera-3.jpg" />
                                 <Card.Body>
-                                    <Card.Title>Camera C</Card.Title>
+                                    <Card.Title>Camera3</Card.Title>
                                     <Card.Text>
                                         Professional features at an affordable price.
                                     </Card.Text>
-                                    <Link to="/cameras/camera-c">
+                                    <Link to="/cameras/camera-3">
                                         <Button variant="primary">View Details</Button>
                                     </Link>
                                 </Card.Body>

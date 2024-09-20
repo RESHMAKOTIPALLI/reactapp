@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Cart.css'; 
+import 'bootstrap/dist/css/bootstrap.min.css'; 
 
 function Cart() {
  

@@ -19,7 +19,7 @@ function Cart() {
     {
       id: 3,
       name: 'Bose QuietComfort Headphones',
-      price: 4000,
+      price: 5000,
       quantity: 2
     }
   ]);
